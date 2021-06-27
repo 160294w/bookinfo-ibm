@@ -9,7 +9,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: bookinfo.apps.ocp1.local
+  - host: ogw-bookinfo.apps.ocp1.local
     http:
       paths:
       - path: /
